@@ -52,7 +52,7 @@ export function CostChart() {
                             <LabelList
                                 dataKey="cost"
                                 position="top"
-                                formatter={(value: number | string) => `${value}€`}
+                                formatter={(value: any) => `${value}€`}
                                 style={{ fill: '#374151', fontWeight: 'bold', fontSize: 14 }}
                             />
                         </Bar>
