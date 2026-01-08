@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { DashboardLayout } from '../components/DashboardLayout';
-import { MapPin, Wifi, BedDouble, Bath, Square, X, Download, Wrench, MessageSquare } from 'lucide-react';
+import { MapPin, Wifi, Square, X, Download, Wrench, MessageSquare } from 'lucide-react';
+
 
 const apartments = [
     { id: 402, address: 'Rue de Courcelles, 75017 Paris', type: 'T1', size: '22m²', status: 'Occupé', tenants: ['L. Dupond', 'M. Martin'], img: 'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=2940&auto=format&fit=crop' },

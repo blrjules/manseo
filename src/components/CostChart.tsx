@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell, LabelList } from 'recharts';
 
 const data = [
@@ -46,13 +46,13 @@ export function CostChart() {
                             contentStyle={{ borderRadius: '8px', border: 'none', boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)' }}
                         />
                         <Bar dataKey="cost" radius={[8, 8, 0, 0]}>
-                            {data.map((entry, index) => (
+                            {data.map((_entry, index) => (
                                 <Cell key={`cell-${index}`} fill={index === 0 ? '#9CA3AF' : '#004732'} />
                             ))}
                             <LabelList
                                 dataKey="cost"
                                 position="top"
-                                formatter={(value: number) => `${value}€`}
+                                formatter={(value: number | string) => `${value}€`}
                                 style={{ fill: '#374151', fontWeight: 'bold', fontSize: 14 }}
                             />
                         </Bar>

@@ -1,5 +1,5 @@
-import React from 'react';
-import { LayoutDashboard, Users, Home, FileText, Settings } from 'lucide-react';
+import { LayoutDashboard, Users, Home, FileText } from 'lucide-react';
+
 import { cn } from '../lib/utils';
 import { NavLink } from 'react-router-dom';
 
