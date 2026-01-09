@@ -49,10 +49,10 @@ export function Sidebar() {
             <div className="p-6 border-t border-gray-100">
                 <div className="flex items-center gap-3">
                     <div className="w-10 h-10 rounded-full bg-gray-200 overflow-hidden border border-gray-100">
-                        <img src="https://ui-avatars.com/api/?name=Sophie+Martin&background=random" alt="Sophie Martin" />
+                        <img src="https://ui-avatars.com/api/?name=Kanita+Haie&background=random" alt="HAIE Kanita" />
                     </div>
                     <div className="flex flex-col">
-                        <span className="text-sm font-semibold text-gray-900">Sophie Martin</span>
+                        <span className="text-sm font-semibold text-gray-900">HAIE Kanita</span>
                         <span className="text-xs text-gray-500">DRH - L'Oréal</span>
                     </div>
                 </div>
